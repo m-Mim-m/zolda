@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 3
-  m_Shader: {fileID: -6465566751694194690, guid: 660eb1e2be87a62498fbb61a994f8749,
+  m_Shader: {fileID: -6465566751694194690, guid: ccd6dbfea2bba9343b38816cd079ce5c,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -227,7 +227,7 @@ Material:
     - _RefractionModel: 0
     - _RenderQueueType: 1
     - _RequireSplitLighting: 0
-    - _Smoothness: 0.25
+    - _Smoothness: 0.361
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
