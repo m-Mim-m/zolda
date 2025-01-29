@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 3
-  m_Shader: {fileID: -6465566751694194690, guid: ccd6dbfea2bba9343b38816cd079ce5c,
+  m_Shader: {fileID: -6465566751694194690, guid: 288e7efd54da7424d95ee1f76745ab42,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -96,6 +96,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Reed:
+        m_Texture: {fileID: 2800000, guid: a9e24bddb4fe1e54e99b3478c3205de6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SecondayMap:
         m_Texture: {fileID: 2800000, guid: a9e24bddb4fe1e54e99b3478c3205de6, type: 3}
         m_Scale: {x: 10, y: 10}
@@ -116,6 +120,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Tex_Horizontal:
+        m_Texture: {fileID: 2800000, guid: f4a98d11f4911c74095413444421a49c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex_Vertical:
+        m_Texture: {fileID: 2800000, guid: 7a3b12cfe326af446b7c2e65aa8d6b48, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _ThicknessMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -132,8 +144,16 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _basemap:
+        m_Texture: {fileID: 2800000, guid: 8a4fa9c1c5d021a4f976259dbc150037, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _fOURTH:
         m_Texture: {fileID: 2800000, guid: f4a98d11f4911c74095413444421a49c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _green:
+        m_Texture: {fileID: 2800000, guid: 7a3b12cfe326af446b7c2e65aa8d6b48, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -166,6 +186,7 @@ Material:
     - _AlphaSrcBlend: 1
     - _Anisotropy: 0
     - _BlendMode: 0
+    - _Blur_Width: -0.79
     - _CoatMask: 0
     - _ConservativeDepthOffsetEnable: 0
     - _CullMode: 2
@@ -184,6 +205,7 @@ Material:
     - _DoubleSidedGIMode: 0
     - _DoubleSidedNormalMode: 1
     - _DstBlend: 0
+    - _Edge: -0.43
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
@@ -193,6 +215,7 @@ Material:
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
     - _ExcludeFromTUAndAA: 0
+    - _GradientScale: 20
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
@@ -249,6 +272,7 @@ Material:
     - _SurfaceType: 0
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
+    - _TextureScale: 1
     - _Thickness: 1
     - _TransmissionEnable: 1
     - _TransmissionMask: 1
